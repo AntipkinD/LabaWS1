@@ -11,9 +11,9 @@
     }
     private static void Main(string[] args)
     {
-        Console.WriteLine("Введите максимальное число n");
+        Console.WriteLine("Введите значение числа n");
         double N = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Введите максимальное число x");
+        Console.WriteLine("Введите значение числа x");
         double X = Convert.ToDouble(Console.ReadLine());
         double result = 0;
         for (double i = 0; i <= N; i++)
